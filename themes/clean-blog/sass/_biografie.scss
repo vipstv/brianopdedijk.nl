@@ -46,3 +46,15 @@
 .tekstschrijver {
   background-image: url("/img/biobg/7.webp");
 }
+
+.quote {
+  background-image: url("/img/biobg/quote.jpg");
+  text-align: center;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    background-position: center;
+  }
+}

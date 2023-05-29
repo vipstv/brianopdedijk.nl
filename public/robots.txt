@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://brianopdedijk.serveo.net/sitemap.xml
+Sitemap: http://5.181.134.50:3001/sitemap.xml

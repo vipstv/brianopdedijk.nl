@@ -21,7 +21,7 @@ Zang: Roosmarijn Otten
 Rap & Tekst (van ingestuurde woorden): Brian op de Dijk
 Hertaling op melodie van: The Weeknd - Blinding Lights
 `,
-    img: "/img/muziek/OgenDicht.webp",
+    img: "/img/muziek/OgenDicht.jpg",
     youtube: "http://youtu.be/ZP03qZvck1A",
   },
   {

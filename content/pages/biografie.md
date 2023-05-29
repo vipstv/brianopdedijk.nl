@@ -120,4 +120,8 @@ In 2021 brengt Brian een eerste eigen single uit; 'Kameraadjes Voor Het Leven'. 
 
 </div>
 
-> "Mijn grootste doel is om een goede en bekende entertainer en celebrity journalist te worden en mensen te raken met mijn verhalen en teksten. Dat gaat mij lukken, daar ga ik vanuit!"
+<div class="bioElem quote">
+
+"Mijn grootste doel is om een goede en bekende entertainer en celebrity journalist te worden en mensen te raken met mijn verhalen en teksten. Dat gaat mij lukken, daar ga ik vanuit!"
+
+</div>

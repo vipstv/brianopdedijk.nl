@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "http://5.181.134.50:8080"
+base_url = "http://5.181.134.50:3001"
 
 # The title of the site
 title = "Brian op de Dijk"
