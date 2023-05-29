@@ -1,0 +1,22 @@
+.showreelTitle {
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 10px;
+}
+.showreelPlayButton {
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  cursor: pointer;
+}
+.showreelHero {
+  background-image: url("/img/home-bg.webp");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}

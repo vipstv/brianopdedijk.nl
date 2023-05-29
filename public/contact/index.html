@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Brian op de Dijk</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://brianopdedijk.serveo.net/css/bootstrap.min.css">
+  <!-- Custom fonts for this template -->
+  <!-- <link href=" https://brianopdedijk.serveo.net/css/all.min.css" rel=" stylesheet" type="text/css"> -->
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="https://brianopdedijk.serveo.net/clean-blog.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/f483157693.js" crossorigin="anonymous"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://brianopdedijk.serveo.net/img/favicon.png">
+
+  <!-- Showreel -->
+  <script>
+    async function playShowreel(playButton) {
+      playButton.style.display = "none";
+      document.getElementById("showreelTitle").style.display = "none";
+      
+      var iframe = document.createElement("iframe");
+      iframe.setAttribute("width", "100%");
+      iframe.setAttribute("height", document.getElementById("showreel").offsetHeight);
+      iframe.setAttribute("frameborder", "0");
+      iframe.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
+      iframe.setAttribute("allowfullscreen", "");
+
+
+      //play the youtube video
+      iframe.src = "https://www.youtube.com/embed/w1JTxCALL_o?autoplay=1";
+
+      document.getElementById("showreel").appendChild(iframe);
+
+    }
+    //on resize, resize the iframe
+    window.addEventListener("resize", function () {
+      var iframe = document.getElementsByTagName("iframe")[0];
+      if (iframe) {
+        iframe.setAttribute("height", document.getElementById("showreel").offsetHeight);
+      }
+    });
+
+    window.addEventListener("load", function () {
+ 
+    //check if # is set to showreel, if so, play the showreel
+    if (window.location.hash == "#showreel") {
+      playShowreel(document.getElementById("showreelPlayButton"));
+    }
+  });
+
+  </script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https:&#x2F;&#x2F;brianopdedijk.serveo.net">Brian op de Dijk</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;brianopdedijk.serveo.net">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;brianopdedijk.serveo.net&#x2F;nieuws">Nieuws</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;brianopdedijk.serveo.net&#x2F;biografie">Biografie</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;brianopdedijk.serveo.net&#x2F;muziek">Muziek</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;brianopdedijk.serveo.net&#x2F;contact">Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('https://brianopdedijk.serveo.net/img/contact-bg.webp')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h1>Contact</h1>
+          <!-- <span class="subheading">Have questions? I have answers.</span> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+ 
+  
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <h5 id="persoonlijke-berichten-voor-brian">Persoonlijke berichten voor Brian:</h5>
+<p><a href="mailto:brian@vipstv.nl">brian@vipstv.nl</a></p>
+<h5 id="management-boekingen-brian">Management &amp; Boekingen Brian:</h5>
+<p><a href="mailto:management@brianopdedijk.nl">management@brianopdedijk.nl</a></p>
+<h5 id="zakelijke-aanvragen-opdrachten-vips-tv-brian-op-de-dijk-mediaproducties">Zakelijke aanvragen/opdrachten (VIPS TV/Brian op de Dijk Mediaproducties):</h5>
+<p><a href="mailto:brian@vipstv.nl">brian@vipstv.nl</a></p>
+
+      </div>
+    </div>
+  </div>
+
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            <li class="list-inline-item">
+              <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;c&#x2F;brianopdedijk">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https:&#x2F;&#x2F;www.tiktok.com&#x2F;@acteerenleer">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-tiktok fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https:&#x2F;&#x2F;www.imdb.com&#x2F;name&#x2F;nm7289280&#x2F;">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-imdb fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;brian-op-de-dijk-aa05553b&#x2F;">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https:&#x2F;&#x2F;www.linktr.ee&#x2F;brianopdedijk">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-tree fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https:&#x2F;&#x2F;brianopdedijk.serveo.net&#x2F;rss.xml">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Brian op de Dijk 2023
+            </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://brianopdedijk.serveo.net/js/jquery.min.js"></script>
+  <script src="https://brianopdedijk.serveo.net/js/bootstrap.bundle.min.js"></script>
+
+  <!--Custom scripts for this template-->
+  <script src="https://brianopdedijk.serveo.net/js/clean-blog.min.js"></script>
+
+  <!--- Additional scripts -->
+  
+  
+</body>
+
+</html>

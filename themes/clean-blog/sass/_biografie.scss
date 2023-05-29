@@ -1,0 +1,48 @@
+.firstElem {
+  margin-top: -50px;
+}
+.bioElem {
+  //make dark background image with cover
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  //make sure the image takes up the whole width of the screen
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  //make the text not go off screen but still background image entire width
+  padding: 15px;
+
+  //make the text white
+  color: $white;
+
+  //make background image slightly dark
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.jeugdbio {
+  background-image: url("/img/biobg/1.webp");
+}
+.radio {
+  background-image: url("/img/biobg/2.webp");
+}
+.tv {
+  background-image: url("/img/biobg/3.webp");
+}
+.fotografie {
+  background-image: url("/img/biobg/4.webp");
+}
+
+.vips {
+  background-image: url("/img/biobg/5.webp");
+}
+.acteren {
+  background-image: url("/img/biobg/6.webp");
+}
+.tekstschrijver {
+  background-image: url("/img/biobg/7.webp");
+}
