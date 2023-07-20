@@ -1,7 +1,7 @@
 const items = [
   {
     name: "Woar ik van Hol",
-    description: `In 2023 wordt de tweede eigen single van Brian uitgebracht, genaamd "Woar ik van Hol". Dit nummer is ontstaan tijdens een schrijfsessie in samenwerking met Krzysztof Groen. Terwijl Krzysztof een melodie speelde, kwam Brian met de tekst voor het nummer. Het lied gaat voornamelijk over het voorjaar, de zomer en de zon. Tijdens het schrijfproces merkte Brian dat het nummer meer vanuit het perspectief van zijn moeder beschreven is, over haar liefde voor de zon en de natuur. Daarom speelt zijn moeder ook een rol in de videoclip van het nummer. De opname van het nummer vond plaats in de studio van Dik Pomp (AS de Fabriek) in Veendam. Als bonustrack op de single is er ook een Nederlandse versie van het lied toegevoegd.
+    description: `In 2023 wordt de tweede eigen single van Brian uitgebracht, genaamd 'Woar ik van Hol'. Dit nummer is ontstaan tijdens een schrijfsessie in samenwerking met Krzysztof Groen. Terwijl Krzysztof een melodie speelde, kwam Brian met de tekst voor het nummer. Het lied gaat voornamelijk over het voorjaar, de zomer en de zon. Tijdens het schrijfproces merkte Brian dat het nummer meer vanuit het perspectief van zijn moeder beschreven is, over haar liefde voor de zon en de natuur. Daarom speelt zijn moeder ook een rol in de videoclip van het nummer. De opname van het nummer vond plaats in de studio van Dik Pomp (AS de Fabriek) in Veendam. Als bonustrack op de single is er ook een Nederlandse versie van het lied toegevoegd.
     
 Zang: Brian op de Dijk
 Tekst: Brian op de Dijk
