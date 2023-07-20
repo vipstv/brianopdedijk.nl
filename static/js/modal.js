@@ -10,6 +10,8 @@ Productie: Dik Pomp (A.S. de Fabriek)`,
     img: "/img/muziek/WoarIk.webp",
     youtube: "https://youtu.be/pkT44ZDCUys",
     spotify: "https://sptfy.com/Or3s",
+    deezer: "https://deezer.page.link/B8M3MjBvuv5y5Fvx7",
+    apple: "https://apple.co/3OkodAy",
   },
   {
     name: "Kameraadjes voor het leven",
