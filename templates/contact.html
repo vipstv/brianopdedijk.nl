@@ -1,8 +1,6 @@
-{% extends "index.html" %}
-
-{% block header %}
+{% extends "index.html" %} {% block header %}
 <!-- Page Header -->
-<header class="masthead" style="background-image: url('{{ get_url(path="/img/contact-bg.webp")}}')">
+<header class="masthead" style="background-image: url('/img/banner.png')">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
@@ -15,15 +13,11 @@
     </div>
   </div>
 </header>
-{% endblock header %}
-
-{% block content %}
+{% endblock header %} {% block content %}
 <!-- Main Content -->
 <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        {{ page.content | safe }}
-      </div>
-    </div>
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">{{ page.content | safe }}</div>
   </div>
+</div>
 {% endblock content %}

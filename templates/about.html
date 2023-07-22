@@ -1,34 +1,28 @@
-{% extends "index.html" %}
-
-{% block header %}
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/f483157693.js" crossorigin="anonymous"></script>
+{% extends "index.html" %} {% block header %}
+<!-- Font Awesome -->
+<script
+  src="https://kit.fontawesome.com/f483157693.js"
+  crossorigin="anonymous"
+></script>
 <!-- Page Header -->
-<header class="masthead" style="background-image: url('{{ get_url(path="/img/about-bg.webp")}}')">
-  <div class="overlay">
-  </div>
+<header class="masthead" style="background-image: url('/img/banner.png')">
+  <div class="overlay"></div>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="page-heading">
-          <h1>
-            {{ page.title }}
-          </h1>
+          <h1>{{ page.title }}</h1>
           <span class="subheading">{{ page.description }}</span>
         </div>
       </div>
     </div>
   </div>
 </header>
-{% endblock header %}
-
-{% block content %}
+{% endblock header %} {% block content %}
 <!-- Main Content -->
 <div class="container">
   <div class="row">
-    <div class="col-lg-8 col-md-10 mx-auto">
-      {{ page.content | safe }}
-    </div>
+    <div class="col-lg-8 col-md-10 mx-auto">{{ page.content | safe }}</div>
   </div>
 </div>
 {% endblock content %}
