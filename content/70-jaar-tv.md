@@ -7,7 +7,7 @@ description = "tv.jpg" # Dit is de foto als achtergrond van de banner
 tags = ["passie", "terugblikken", "televisie"]
 +++
 
-[![](https://brianopdedijk.files.wordpress.com/2021/10/download.jpg?w=694)](https://brianopdedijk.files.wordpress.com/2021/10/download.jpg)
+![](/img/blog/testbeeld.jpg)
 
 Deze oktobermaand bestaat de televisie 70 jaar.. en zijn er veel terugblik programma’s op tv te zien.. ik probeer ze allemaal te kijken. Wat een herinneringen! _‘O ja, dat heb ik gezien’_ of _‘Dat weet ik nog wel’_, _‘O ja is ook zo!’_, _‘Dit was mooi’_ of juist _‘Nee dit vond ik niets aan’_ en uiteraard interessante verhalen en feitjes. Ik hou ervan, überhaupt van lijstjes en overzichten. 70 jaar televisie.. met momenten van vreugde, ontroering en verbazing. Ik weet niet beter dan dat het er altijd was, dus met feiten als dat er vroeger maar op bepaalde momenten uitzending was, zijn voor mij vreemd.
 

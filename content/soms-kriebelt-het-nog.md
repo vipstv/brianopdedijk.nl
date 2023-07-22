@@ -19,4 +19,4 @@ Vandaag (13 februari) is het Wereld Radio Dag.. Mijn afscheid van de radio is bi
 
 Soms kriebelt het nog…
 
-![](https://brianopdedijk.files.wordpress.com/2022/02/e3c25db3-22b6-479f-8827-1c2c90abdac4.jpg?w=750)
+![](/img/blog/brianradioannen.jpg)
