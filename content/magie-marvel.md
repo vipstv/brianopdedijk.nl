@@ -7,7 +7,7 @@ description = "marvel.jpg" # Dit is de foto als achtergrond van de banner
 tags = ["marvel"]
 +++
 
-![](https://brianopdedijk.files.wordpress.com/2021/09/b93be5ac37b719d59a7b40731a5c2547.gif?w=720)
+![](/img/blog/marvel/MARVEL.gif)
 
 **Zodra er weer een nieuwe film uitkomt zit ik op de dag van release al in de bioscoop. Recent nog, bij Shang-Chi en daarvoor Black Widow. Als er een nieuwe serie verschijnt, BINGE ik die ook vrijwel meteen. Dat ik een Marvel fan ben kan je daarom best wel zeggen, al is dat nog niet ‘SUPER’ lang. Sterker nog…**
 
@@ -32,9 +32,9 @@ Het tofste aan de films van nu.. vind ik de verwijzingen naar de andere films, d
 <div
     style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: 100%; "
 
-> <img src="https://brianopdedijk.files.wordpress.com/2021/09/avengers-gif.gif" alt="drawing" width="500" />
+> <img src="/img/blog/marvel/AVENGERS1.gif" alt="drawing" width="500" />
 
-<img src="https://brianopdedijk.files.wordpress.com/2021/09/200.gif?w=485" alt="drawing" width="500"
+<img src="/img/blog/marvel/AVENGERS2.gif" alt="drawing" width="500"
     style="margin-left: 10px;"
  />
 
