@@ -21,7 +21,7 @@ Het blijft niet alleen bij DVD’s, ook heb ik wat (miniatuur-)attributen uit de
 
 Als ik dieper nadenk.. begon het eigenlijk al eerder.. tussen 1979 en 1982 was er een televisieserie over The Hulk. Deze werd in 2006/2007 herhaalt op SBS 6. Iedere week keken we daar naar. Blijkbaar sprak mij dat toen al aan.
 
-<img src="https://brianopdedijk.files.wordpress.com/2021/09/image.png" alt="drawing" width="500"
+<img src="/img/blog/marvel/hulk.jpg" alt="drawing" width="500"
 style="display: block; margin-left: auto; margin-right: auto; width: 50%;"
 />
 
@@ -48,7 +48,9 @@ Het ultieme moment voor mij is uiteraard ‘Avengers Assemble’ uit Endgame (di
 
 De reacties uit de zaal bij dit moment in het filmpje.. dat gevoel herken ik. Als je mij kent, weet je dat ik niet zo uitbundig ben qua gillen.. ik ben meer van de ‘traanoogjes’ en kippenvel.. maar hier en daar klap ik of reageer ik toch hardop met een YES!! of O NEE.. Als ik met iemand samen in de bioscoop ben, kijken ze mij weleens vreemd aan.. maar dat boeit mij dan niet.. ik ga er helemaal in op, because I LOVE IT!
 
-![](https://brianopdedijk.files.wordpress.com/2021/09/brianopdedijk_202973505_490963008826073_7294056039025397875_n.jpg?w=300)
+<img src="/img/blog/marvel/spiderman.jpg" alt="drawing" width="500"
+style="display: block; margin-left: auto; margin-right: auto; width: 50%;"
+/>
 
 Ik kreeg een herkansing, wat première betreft. Waar ik in 2014 nog onwetend aan de rode loper stond, was ik nu, zelf in de ban van de Marvel-hype, aanwezig bij de première van ‘Spider-Man: Far From Home’ (2019). Ik deed wederom verslag en mocht dit keer ook de film zien. Super vette film en ook gaaf dat filmmaatje Michael de Roos (speelt in mijn filmprojecten De Confrontatie II en P.E.T.S.) een kleine rol in de film heeft als voetbalhooligan, samen met o.a. Jeroen van Koningsbrugge.
 
