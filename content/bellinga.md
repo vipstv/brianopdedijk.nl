@@ -9,4 +9,4 @@ tags = ["de bellinga's", "vakantie op stelten", "film"]
 
 Deze zomer is Brian te zien in tweede bioscoopfilm van de vlogfamilie Bellinga; De Bellinga's: Vakantie op Stelten.
 
-<img src="bellinga1.jpg"/>
+<img src="/img/blog/bellinga1.jpg" width="100%" alt="Brian met de Bellinga's" />
