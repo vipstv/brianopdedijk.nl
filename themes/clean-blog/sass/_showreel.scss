@@ -2,13 +2,32 @@
   color: #fff;
   text-shadow: 2px 2px 4px #000000;
   margin-bottom: 10px;
+  text-align: center; /* Center the text */
 }
+
 .showreelPlayButton {
   font-size: 100px;
   color: #fff;
   text-shadow: 2px 2px 4px #000000;
   cursor: pointer;
 }
+
+.showreelContent {
+  display: flex;
+  flex-wrap: wrap; /* Items will wrap to next line on smaller screens */
+  justify-content: center;
+  align-items: center;
+}
+
+.showreelItem {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  flex: 1; /* Distributes available space equally among items */
+  max-width: 300px; /* Optional: Set a maximum width for each item */
+}
+
 .showreelHero {
   background-image: url("/img/showreel.png");
   background-size: cover;
@@ -19,4 +38,13 @@
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
+}
+
+.showreelItemContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center the content horizontally */
+  /*center horizontally*/
+  margin: 0 auto;
 }
