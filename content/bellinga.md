@@ -1,6 +1,6 @@
 +++
 title = "De Bellinga's: Vakantie op Stelten"
-date = 2023-05-24
+date = 2023-07-12
 description = "bellinga2.jpg" # Dit is de foto als achtergrond van de banner
 
 [taxonomies]
