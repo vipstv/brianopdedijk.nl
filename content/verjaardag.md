@@ -1,5 +1,5 @@
 +++
-title = "HAPPY BIRTHDAY TO ME!"
+title = "BLOG: HAPPY BIRTHDAY TO ME!"
 date = 2021-12-17
 description = "verjaardag.jpg" # Dit is de foto als achtergrond van de banner
 

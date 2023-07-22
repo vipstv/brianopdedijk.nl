@@ -1,5 +1,5 @@
 +++
-title = "70 jaar televisie"
+title = "BLOG: 70 jaar televisie"
 date = 2021-10-24
 description = "tv.jpg" # Dit is de foto als achtergrond van de banner
 

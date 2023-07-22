@@ -1,5 +1,5 @@
 +++
-title = "De magie van MARVEL"
+title = "BLOG: De magie van MARVEL"
 date = 2021-09-04
 description = "marvel.jpg" # Dit is de foto als achtergrond van de banner
 

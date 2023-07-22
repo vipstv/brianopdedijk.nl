@@ -1,5 +1,5 @@
 +++
-title = "Soms kriebelt het nog..."
+title = "BLOG: Soms kriebelt het nog..."
 date = 2022-02-13
 description = "kriebel.jpg" # Dit is de foto als achtergrond van de banner
 

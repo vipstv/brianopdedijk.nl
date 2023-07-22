@@ -1,5 +1,5 @@
 +++
-title = "Ik hou van lijstjes"
+title = "BLOG: Ik hou van lijstjes"
 date = 2022-12-25
 description = "lijstjes.jpg" # Dit is de foto als achtergrond van de banner
 

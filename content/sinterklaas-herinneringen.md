@@ -1,5 +1,5 @@
 +++
-title = "Sinterklaas Herinneringen"
+title = "BLOG: Sinterklaas Herinneringen"
 date = 2021-11-23
 description = "pepernoten.jpg" # Dit is de foto als achtergrond van de banner
 
