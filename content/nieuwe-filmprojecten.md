@@ -1,5 +1,5 @@
 +++
-title = "Nieuwe filmprojecten'"
+title = "Nieuwe filmprojecten"
 date = 2023-05-24
 description = "setfoto.jpg" # Dit is de foto als achtergrond van de banner
 
