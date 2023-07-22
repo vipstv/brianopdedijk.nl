@@ -1,7 +1,7 @@
 +++
 title = "Nieuwe single: Woar ik van Hol"
 date = 2023-06-21
-description = "Woarik.webp" # Dit is de foto als achtergrond van de banner
+description = "woarik.jpg" # Dit is de foto als achtergrond van de banner
 
 [taxonomies]
 tags = ["nieuwe single", "muziek", "woar ik van hol", "waar ik van hou"]
