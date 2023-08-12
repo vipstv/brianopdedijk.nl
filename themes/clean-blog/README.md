@@ -52,5 +52,5 @@ Copyright %copy; Example, Inc. 2016-2019
 <script>
 ...
 </script>
-{% endblock analytics %}
+
 ```
