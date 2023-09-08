@@ -1,5 +1,5 @@
 +++
-title = "Nieuw Seizoen VIPS TV van start!"
+title = "Nieuw seizoen VIPS TV van start!"
 date = 2023-09-01
 description = "vipstv2324.jpg" # Dit is de foto als achtergrond van de banner
 
@@ -7,7 +7,7 @@ description = "vipstv2324.jpg" # Dit is de foto als achtergrond van de banner
 tags = ["vips tv",  "brian op de dijk", "luka bellinga", "danny jongejan", "marlon matla", "stacey matla", "daan schenkel", "reporters", "nieuw seizoen", "2023-2024"]
 +++
 
-<img src="/img/blog/vipstv2324.jpg" alt="VIPS TV" width="400" />
+<img src="/img/blog/vipstv2324.jpg" alt="VIPS TV" width="600" />
 
 Het is september en dat betekent dat de zomervakanties voorbij zijn en het nieuwe culturele seizoen is gestart!
 
