@@ -48,5 +48,5 @@ jobs:
 
       - name: Deploy via GCS
         run: |
-          gsutil -m rm -rf gs://petsproject.nl/* || echo "$?"
-          gsutil -m cp -r * gs://petsproject.nl/
+          gsutil -m rm -rf gs://brianopdedijk.nl/* || echo "$?"
+          gsutil -m cp -r * gs://brianopdedijk.nl/
