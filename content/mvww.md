@@ -1,7 +1,7 @@
 +++
 title = "Nieuwe single: Man van Weinig Woorden"
 date = 2024-05-03
-description = "/img/muziek/MVWW-HOES.jpg" # Dit is de foto als achtergrond van de banner
+description = "MVWW.jpg" # Dit is de foto als achtergrond van de banner
 
 [taxonomies]
 tags = ["nieuwe single", "muziek", "man van weinig woorden"]
