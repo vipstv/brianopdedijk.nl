@@ -1,23 +1,9 @@
-# Use latest Rust-based Zola image
-FROM ghcr.io/getzola/zola:latest AS builder
+FROM ghcr.io/getzola/zola:v0.17.1 as zola
 
-# Set working directory
-WORKDIR /site
+COPY . /project
+WORKDIR /project
+RUN ["zola", "build"]
 
-# Copy site files into container
-COPY . .
-
-# Build the static site
-RUN zola build
-
-# Use a lightweight web server for serving the static files
-FROM nginx:alpine AS runner
-
-# Copy built site from builder
-COPY --from=builder /site/public /usr/share/nginx/html
-
-# Expose port 80
-EXPOSE 80
-
-# Start Nginx
-CMD ["nginx", "-g", "daemon off;"]
+FROM ghcr.io/static-web-server/static-web-server:2
+WORKDIR /
+COPY --from=zola /project/public /public
