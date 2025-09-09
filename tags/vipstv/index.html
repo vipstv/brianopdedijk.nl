@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      
+      
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Brian op de Dijk - Articles in the vipstv tag</title>
+      <!-- Bootstrap core CSS -->
+      <link rel="stylesheet" href="https://brianopdedijk.nl/css/bootstrap.min.css">
+      <!-- Custom fonts for this template -->
+      <!-- <link href=" https://brianopdedijk.nl/css/all.min.css" rel=" stylesheet" type="text/css"> -->
+      <link href='https://api.fonts.coollabs.io/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+         type='text/css'>
+      <link
+         href='https://api.fonts.coollabs.io/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+         rel='stylesheet' type='text/css'>
+      <!-- Custom styles for this template -->
+      <link rel="stylesheet" href="https://brianopdedijk.nl/clean-blog.css">
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/f483157693.js" crossorigin="anonymous"></script>
+      <!-- Favicon -->
+      <link rel="icon" href="https://brianopdedijk.nl/img/favicon.png">
+      <!-- Showreel -->
+      <script>
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  
+
+         async function playShowreel(elem) {
+           document.getElementById("showreelContent").style.display = "none";
+            let type = elem.parentElement.innerText.replace(/\s/g, '');
+            let vidID;
+
+            if (type == "ActeerReel") 
+              vidID = "Rh0F90cZd3I";
+           if (type == "PresentatieReel") 
+              vidID = "XyztyK9eZYw";
+           if(type == "Stemdemo") 
+              vidID = "V-mcaqq0Lfs";
+
+            let player = new YT.Player('showreel', {
+               height: document.getElementById("showreel").offsetHeight,
+               width: '100%',
+               videoId: vidID,
+               playerVars: {
+                 'autoplay': 1,
+                 'controls': 1,
+                 'showinfo': 0,
+                 'rel': 0,
+                 'modestbranding': 1,
+                 'loop': 0, 
+                },
+
+                //on end, show the showreel content again
+                events: {
+                  'onStateChange': function(event) {
+                    console.log(event.data);
+                    if (event.data == 0) {
+                      player.destroy();
+                      document.getElementById("showreelContent").style.display = "flex";
+
+                    }
+                  }
+                }
+              
+            });
+         
+         
+         }
+         //on resize, resize the iframe
+         window.addEventListener("resize", function () {
+           var iframe = document.getElementsByTagName("iframe")[0];
+           if (iframe) {
+             iframe.setAttribute("height", document.getElementById("showreel").offsetHeight);
+           }
+         });
+         
+         window.addEventListener("load", function () {
+         
+         //check if # is set to showreel, if so, play the showreel
+         if (window.location.hash == "#showreel") {
+           playShowreel();
+         }
+         });
+         
+      </script>
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+         <div class="container">
+            <a class="navbar-brand" href="https:&#x2F;&#x2F;brianopdedijk.nl">Brian op de Dijk</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+               data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+               aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                  
+                  <li class="nav-item">
+                     <a class="nav-link"
+                     href="https:&#x2F;&#x2F;brianopdedijk.nl">Home</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                     <a class="nav-link"
+                     href="https:&#x2F;&#x2F;brianopdedijk.nl&#x2F;nieuws">Nieuws</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                     <a class="nav-link"
+                     href="https:&#x2F;&#x2F;brianopdedijk.nl&#x2F;biografie">Biografie</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                     <a class="nav-link"
+                     href="https:&#x2F;&#x2F;brianopdedijk.nl&#x2F;muziek">Muziek</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                     <a class="nav-link"
+                     href="https:&#x2F;&#x2F;brianopdedijk.nl&#x2F;contact">Contact</a>
+                  </li>
+                  
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Page Header -->
+      
+      <header class="masthead" style="background-image: url('https://brianopdedijk.nl/img/home.png')">
+      <div class="overlay">
+      </div>
+      <div 
+         style="margin: 0 auto; width: 100%; padding: 0 20px; text-align: center; position: relative; z-index: 1;">
+         >
+         <div class="row">
+            <div class="mx-auto" style="z-index: 1;">
+               <div class="site-heading">
+                  <h1>Brian op de Dijk</h1>
+                  <span class="subheading"
+                     style="color: #fff; text-shadow: 2px 2px 4px #000000; width: 100%; text-align: center;">
+                  Welkom op de website van Brian op de Dijk!
+                  <br/><br/>
+                  Brian is een veelzijdige professional, actief op verschillende vakgebieden. Zo is hij presentator en celebrity journalist bij zijn eigen platform VIPS TV, maar is hij daarnaast ook de regisseur van zijn eigen geschreven films. Hij is verantwoordelijk voor het gehele plaatje, van idee tot productie. Ook staat hij steeds vaker zelf achter de camera en doet hij de editing. 
+                  <br/><br/>
+                  Een ander belangrijk aspect van zijn werk is zijn rol als gastdocent en ervaringsdeskundige op scholen. Met zijn eigen lesprogramma P.E.T.S. (Probeer Eens Te Stoppen), met als onderwerp pesten, creëert hij een inspirerende omgeving waarin leerlingen, door middel van de interactieve films en zijn eigen ervaringen, worden uitgenodigd om vragen te stellen en hun eigen ervaringen te delen.
+                  <br/><br/>
+                  Binnen VIPS TV en Brian op de Dijk Mediaproducties komt alles samen. Hier creëert hij boeiende content en realiseert hij zijn visie. Zijn portfolio omvat een scala aan projecten, waaronder reportages, programma’s, vlogs, eigen films, fotografie, liedteksten en projecten in opdracht. Ook coacht hij, bijvoorbeeld de junior reporters die actief zijn bij VIPS TV, maar ook de acteurs op de filmset. Daarnaast brengt hij eigen nummers uit en is hij actief als (stem-) acteur. 
+                  <br/><br/>
+                  Entertainen zit hem in het bloed en hij streeft er altijd naar om zijn passie voor media over te brengen en mensen te raken met zijn verhalen en teksten.
+                  <br/><br/>
+                  Op deze website kun je meer ontdekken over zijn werk, projecten en verschillende disciplines. Neem gerust contact met hem op voor samenwerking of meer informatie.</span>
+                  <div class="arrow"
+                     >
+                     <a href="#scroll">
+                     <i class="fas fa-chevron-down"
+                        style="font-size: 30px; color: #fff; text-shadow: 2px 2px 4px #000000;"
+                        ></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </header>
+      
+      
+      <!-- Arrow bottom center that tells you to scroll down -->
+      <!-- Main Content -->
+      <div class="container" id="scroll"
+         >
+         <div class="row">
+            <h2 class="sectionTitle" 
+               >Laatste nieuws</h2>
+            <div 
+               class="blog-grid"        
+               >
+               
+               <div class="card blogItem" 
+                  style="cursor: pointer;"
+                  onclick="window.location.href='https:&#x2F;&#x2F;brianopdedijk.nl&#x2F;gijspectiefseizoen2&#x2F;'"
+                  >
+                  <img class="card-img-top" src="/img/blog/gijspectiefseizoen2.jpg" alt="Card image cap"
+                     style="width: 100%; height: 200px; object-fit: cover;"
+                     >
+                  <div class="card-body">
+                     <h5 class="card-title blogTitle">Gijspectief krijgt een tweede seizoen </h5>
+                      <a href="https:&#x2F;&#x2F;brianopdedijk.nl&#x2F;gijspectiefseizoen2&#x2F;" class="btn btn-primary"
+                        >Lees meer</a>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+
+      <div>
+        <div class="hero showreelHero" id="showreel">
+          <div class="showreelContent" id="showreelContent">
+            <div class="showreelItem">
+              <div class="showreelItemContent">
+                <h1 class="showreelTitle">Presentatie Reel</h1>
+                <i class="fas fa-play-circle showreelPlayButton" onclick="playShowreel(this)"></i>
+              </div>
+            </div>
+            <div class="showreelItem">
+              <div class="showreelItemContent">
+                <h1 class="showreelTitle">Stemdemo</h1>
+                <i class="fas fa-play-circle showreelPlayButton" onclick="playShowreel(this)"></i>
+              </div>
+            </div>
+            <div class="showreelItem">
+              <div class="showreelItemContent">
+                <h1 class="showreelTitle">Acteer Reel</h1>
+                <i class="fas fa-play-circle showreelPlayButton" onclick="playShowreel(this)"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+    
+      </div>  
+      <h2 
+         class="sectionTitle"
+         >Instagram</h2>
+      <br/>
+      <figure data-behold-id="cf8l6Bgw6zoAmy39u8tp"></figure>
+      <script src="https://w.behold.so/widget.js" type="module"></script>
+      <br/>
+      <br/>
+      <!-- /.row -->
+      
+      <hr>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 col-md-10 mx-auto">
+                  <ul class="list-inline text-center">
+                     
+                     <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;c&#x2F;brianopdedijk">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     
+                     <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.tiktok.com&#x2F;@acteerenleer">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-tiktok fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     
+                     <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.imdb.com&#x2F;name&#x2F;nm7289280&#x2F;">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-imdb fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     
+                     <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;brian-op-de-dijk-aa05553b&#x2F;">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     
+                     <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.linktr.ee&#x2F;brianopdedijk">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-tree fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     
+                     <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;brianopdedijk.nl&#x2F;rss.xml">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     
+                  </ul>
+                  <p class="copyright text-muted">Copyright &copy; Brian op de Dijk 2025
+                     
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Bootstrap core JavaScript -->
+      <script src="https://brianopdedijk.nl/js/jquery.min.js"></script>
+      <script src="https://brianopdedijk.nl/js/bootstrap.bundle.min.js"></script>
+      <!--Custom scripts for this template-->
+      <script src="https://brianopdedijk.nl/js/clean-blog.min.js"></script>
+      <!--- Additional scripts -->
+      
+      
+   </body>
+</html>

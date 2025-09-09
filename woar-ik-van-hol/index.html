@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      
+      
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Brian op de Dijk</title>
+      <!-- Bootstrap core CSS -->
+      <link rel="stylesheet" href="https://brianopdedijk.nl/css/bootstrap.min.css">
+      <!-- Custom fonts for this template -->
+      <!-- <link href=" https://brianopdedijk.nl/css/all.min.css" rel=" stylesheet" type="text/css"> -->
+      <link href='https://api.fonts.coollabs.io/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+         type='text/css'>
+      <link
+         href='https://api.fonts.coollabs.io/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+         rel='stylesheet' type='text/css'>
+      <!-- Custom styles for this template -->
+      <link rel="stylesheet" href="https://brianopdedijk.nl/clean-blog.css">
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/f483157693.js" crossorigin="anonymous"></script>
+      <!-- Favicon -->
+      <link rel="icon" href="https://brianopdedijk.nl/img/favicon.png">
+      <!-- Showreel -->
+      <script>
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  
+
+         async function playShowreel(elem) {
+           document.getElementById("showreelContent").style.display = "none";
+            let type = elem.parentElement.innerText.replace(/\s/g, '');
+            let vidID;
+
+            if (type == "ActeerReel") 
+              vidID = "Rh0F90cZd3I";
+           if (type == "PresentatieReel") 
+              vidID = "XyztyK9eZYw";
+           if(type == "Stemdemo") 
+              vidID = "V-mcaqq0Lfs";
+
+            let player = new YT.Player('showreel', {
+               height: document.getElementById("showreel").offsetHeight,
+               width: '100%',
+               videoId: vidID,
+               playerVars: {
+                 'autoplay': 1,
+                 'controls': 1,
+                 'showinfo': 0,
+                 'rel': 0,
+                 'modestbranding': 1,
+                 'loop': 0, 
+                },
+
+                //on end, show the showreel content again
+                events: {
+                  'onStateChange': function(event) {
+                    console.log(event.data);
+                    if (event.data == 0) {
+                      player.destroy();
+                      document.getElementById("showreelContent").style.display = "flex";
+
+                    }
+                  }
+                }
+              
+            });
+         
+         
+         }
+         //on resize, resize the iframe
+         window.addEventListener("resize", function () {
+           var iframe = document.getElementsByTagName("iframe")[0];
+           if (iframe) {
+             iframe.setAttribute("height", document.getElementById("showreel").offsetHeight);
+           }
+         });
+         
+         window.addEventListener("load", function () {
+         
+         //check if # is set to showreel, if so, play the showreel
+         if (window.location.hash == "#showreel") {
+           playShowreel();
+         }
+         });
+         
+      </script>
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+         <div class="container">
+            <a class="navbar-brand" href="https:&#x2F;&#x2F;brianopdedijk.nl">Brian op de Dijk</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+               data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+               aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                  
+                  <li class="nav-item">
+                     <a class="nav-link"
+                     href="https:&#x2F;&#x2F;brianopdedijk.nl">Home</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                     <a class="nav-link"
+                     href="https:&#x2F;&#x2F;brianopdedijk.nl&#x2F;nieuws">Nieuws</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                     <a class="nav-link"
+                     href="https:&#x2F;&#x2F;brianopdedijk.nl&#x2F;biografie">Biografie</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                     <a class="nav-link"
+                     href="https:&#x2F;&#x2F;brianopdedijk.nl&#x2F;muziek">Muziek</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                     <a class="nav-link"
+                     href="https:&#x2F;&#x2F;brianopdedijk.nl&#x2F;contact">Contact</a>
+                  </li>
+                  
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Page Header -->
+      
+<!-- Page Header -->
+<header class="masthead" style='background-image: url("/img/blog/woarik.jpg")'>
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          
+<h1>Nieuwe single: Woar ik van Hol</h1>
+<span class="meta">Posted by
+    <a href="#">Brian</a>
+    on 21 June 2023
+</span>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+      
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>De tweede eigen single van Brian is uitgebracht. De titel is &quot;Woar ik van Hol&quot;. Het nummer is ontstaan tijdens een schrijfsessie in samenwerking met Krzysztof Groen. Terwijl Krzysztof een melodie speelde, kwam Brian met de tekst voor het nummer. Het lied gaat voornamelijk over het voorjaar, de zomer en de zon. Tijdens het schrijfproces merkte Brian dat het nummer meer vanuit het perspectief van zijn moeder beschreven is, over haar liefde voor de zon en de natuur. Daarom speelt zijn moeder ook een rol in de videoclip van het nummer. De opname van het nummer vond plaats in de studio van Dik Pomp (AS de Fabriek) in Veendam. Als bonustrack op de single is er ook een Nederlandse versie van het lied toegevoegd.</p>
+
+        
+        <div class="post-tags">
+          <p>Tags:
+            
+            <a href="https://brianopdedijk.nl/tags/nieuwe-single/">#nieuwe single</a>
+            
+            <a href="https://brianopdedijk.nl/tags/muziek/">#muziek</a>
+            
+            <a href="https://brianopdedijk.nl/tags/woar-ik-van-hol/">#woar ik van hol</a>
+            
+            <a href="https://brianopdedijk.nl/tags/waar-ik-van-hou/">#waar ik van hou</a>
+            
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+      <hr>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 col-md-10 mx-auto">
+                  <ul class="list-inline text-center">
+                     
+                     <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;c&#x2F;brianopdedijk">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     
+                     <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.tiktok.com&#x2F;@acteerenleer">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-tiktok fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     
+                     <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.imdb.com&#x2F;name&#x2F;nm7289280&#x2F;">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-imdb fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     
+                     <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;brian-op-de-dijk-aa05553b&#x2F;">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     
+                     <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.linktr.ee&#x2F;brianopdedijk">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-tree fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     
+                     <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;brianopdedijk.nl&#x2F;rss.xml">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     
+                  </ul>
+                  <p class="copyright text-muted">Copyright &copy; Brian op de Dijk 2025
+                     
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Bootstrap core JavaScript -->
+      <script src="https://brianopdedijk.nl/js/jquery.min.js"></script>
+      <script src="https://brianopdedijk.nl/js/bootstrap.bundle.min.js"></script>
+      <!--Custom scripts for this template-->
+      <script src="https://brianopdedijk.nl/js/clean-blog.min.js"></script>
+      <!--- Additional scripts -->
+      
+      
+   </body>
+</html>
