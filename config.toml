@@ -7,8 +7,8 @@ title = "Brian op de Dijk"
 #Theme
 theme = "clean-blog"
 taxonomies = [
-    {name = "categories", rss = true, paginate_by=5},
-    {name = "tags", rss = true, paginate_by=5},
+    { name = "categories", rss = true, paginate_by = 5 },
+    { name = "tags", rss = true, paginate_by = 5 },
 ]
 
 
@@ -19,8 +19,8 @@ compile_sass = true
 build_search_index = true
 
 #Build RSS feed
-generate_feed = true
-feed_filename = "rss.xml"
+generate_feeds = true
+feed_filenames = ["rss.xml"]
 
 [markdown]
 # Whether to do syntax highlighting
@@ -31,17 +31,17 @@ highlight_code = true
 # Put all your custom variables here
 author = "Brian"
 clean_blog_menu = [
-    {url = "$BASE_URL", name = "Home"},
-    {url = "$BASE_URL/nieuws", name = "Nieuws"},
-    {url = "$BASE_URL/biografie", name = "Biografie"},    
-    {url = "$BASE_URL/muziek", name = "Muziek"},
-    {url = "$BASE_URL/contact", name = "Contact"},
+    { url = "$BASE_URL", name = "Home" },
+    { url = "$BASE_URL/nieuws", name = "Nieuws" },
+    { url = "$BASE_URL/biografie", name = "Biografie" },
+    { url = "$BASE_URL/muziek", name = "Muziek" },
+    { url = "$BASE_URL/contact", name = "Contact" },
 ]
 clean_blog_social = [
-    {url = "https://www.youtube.com/c/brianopdedijk", icon="fab fa-youtube"},
-    {url = "https://www.tiktok.com/@acteerenleer", icon="fab fa-tiktok"},
-    {url = "https://www.imdb.com/name/nm7289280/", icon="fab fa-imdb"},
-    {url = "https://www.linkedin.com/in/brian-op-de-dijk-aa05553b/", icon="fab fa-linkedin"},
-    {url = "https://www.linktr.ee/brianopdedijk", icon="fas fa-tree"},
-    {url = "$BASE_URL/rss.xml", icon="fa fa-rss"},
+    { url = "https://www.youtube.com/c/brianopdedijk", icon = "fab fa-youtube" },
+    { url = "https://www.tiktok.com/@acteerenleer", icon = "fab fa-tiktok" },
+    { url = "https://www.imdb.com/name/nm7289280/", icon = "fab fa-imdb" },
+    { url = "https://www.linkedin.com/in/brian-op-de-dijk-aa05553b/", icon = "fab fa-linkedin" },
+    { url = "https://www.linktr.ee/brianopdedijk", icon = "fas fa-tree" },
+    { url = "$BASE_URL/rss.xml", icon = "fa fa-rss" },
 ]
