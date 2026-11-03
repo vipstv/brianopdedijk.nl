@@ -1,11 +1,9 @@
-{% import "post_macros.html" as post_macros %}
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  
-  
+
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -16,7 +14,7 @@
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="{{ get_url(path="css/bootstrap.min.css") }}">
   <!-- Custom fonts for this template -->
-  <link href=" {{ get_url(path="css/all.min.css") }}" rel=" stylesheet" type="text/css">
+  <link href="{{ get_url(path="css/all.min.css") }}" rel="stylesheet" type="text/css">
   <link href='https://api.fonts.coollabs.io/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
     type='text/css'>
   <link
@@ -28,7 +26,7 @@
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/f483157693.js" crossorigin="anonymous"></script>
-  
+
   <!-- Favicon -->
   <link rel="icon" href="{{ get_url(path="img/favicon.png") }}">
 </head>
@@ -49,8 +47,8 @@
         <ul class="navbar-nav ml-auto">
           {% for item in config.extra.clean_blog_menu %}
           <li class="nav-item">
-            <a class="nav-link"
-              href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">{{ item.name }}</a>
+            <a class="nav-link" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">{{ item.name
+              }}</a>
           </li>
           {% endfor %}
         </ul>
@@ -84,7 +82,12 @@
         <div class="posts">
           {% for page in paginator.pages %}
           <div class="post-preview">
-            {{ post_macros::page_title(page=page) }}
+            <a href="{{ page.permalink }}">
+              <h2 class="post-title">{{ page.title }}</h2>
+            </a>
+            <p class="post-meta">Posted by
+              <a href="#">{{ config.extra.author }}</a>
+              on {{ page.date | date(format="%e %B %Y") }}</p>
             <p class="post-summary">{{ page.summary | safe }}</p>
           </div>
           {% endfor %}
@@ -140,7 +143,7 @@
 
   <!--- Additional scripts -->
   {% block extrascripts %}
-  {% endblock extrasripts %}
+  {% endblock extrascripts %}
 </body>
 
 </html>

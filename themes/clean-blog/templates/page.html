@@ -8,7 +8,11 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="post-heading">
-          {{ post_macros::page_header(page=page) }}
+          <h1>{{ page.title }}</h1>
+          <span class="meta">Posted by
+            <a href="#">{{ config.extra.author }}</a>
+            on {{ page.date | date(format="%e %B %Y") }}
+          </span>
         </div>
       </div>
     </div>
