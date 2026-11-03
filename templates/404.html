@@ -1,0 +1,32 @@
+{% extends "index.html" %}
+
+{% block title %}Pagina niet gevonden - {{ config.title }}{% endblock title %}
+
+{% block header %}
+  <header class="masthead" style="background-image: url('/img/banner.png');">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto" style="z-index: 1;">
+          <div class="site-heading">
+            <h1>404</h1>
+            <span class="subheading" style="color: #fff; text-shadow: 2px 2px 4px #000000;">
+              Pagina niet gevonden
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+{% endblock header %}
+
+{% block content %}
+  <div class="container" id="scroll">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto text-center">
+        <p>De pagina die je zoekt bestaat niet (meer).</p>
+        <a href="{{ config.base_url }}" class="btn btn-primary">Terug naar home</a>
+      </div>
+    </div>
+  </div>
+{% endblock content %}

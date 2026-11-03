@@ -1,0 +1,53 @@
+{% extends "index.html" %}
+
+{% block title %}{{ config.title }} - #{{ term.name }}{% endblock title %}
+
+{% block header %}
+  <!-- Tag Header -->
+  <header class="masthead" style="background-image: url('/img/banner.png');">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto" style="z-index: 1;">
+          <div class="site-heading">
+            <h1>#{{ term.name }}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+{% endblock header %}
+
+{% block content %}
+  <!-- Main Content -->
+  <div class="container" id="scroll">
+    <div class="blog-grid">
+      {% for post in paginator.pages %}
+        <div class="card blogItem"
+             style="cursor: pointer"
+             onclick="window.location.href='{{ post.permalink }}'">
+          <img class="card-img-top"
+               src="/img/blog/{{ post.description }}"
+               alt="Card image cap"
+               style="width: 100%;
+                      height: 200px;
+                      object-fit: cover">
+          <div class="card-body">
+            <h5 class="card-title blogTitle">{{ post.title }}</h5>
+            <a href="{{ post.permalink }}" class="btn btn-primary">Lees meer</a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Paginator -->
+    <div class="clearfix">
+      {% if paginator.previous %}
+        <a class="btn btn-primary float-left" href="{{ paginator.previous }}">&larr; Nieuwer</a>
+      {% endif %}
+      {% if paginator.next %}
+        <a class="btn btn-primary float-right" href="{{ paginator.next }}">Ouder &rarr;</a>
+      {% endif %}
+    </div>
+  </div>
+{% endblock content %}
